@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="https://getbootstrap.com/docs/3.3/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Todolist - JS</title>
 
     <!-- Bootstrap core CSS -->
     <link href="styles/bootstrap.min.css" rel="stylesheet">
@@ -32,6 +32,21 @@
 
   <body>
 
+
+    <div class="container col">
+      <form id="taskForm" action="" method="POST">
+        <div class="form-group">
+          <label for="inputTaskName">Zadanie: </label>
+          <input type="text" class="form-control" id="inputTaskName" aria-describedby="inputTaskName" placeholder="Nazwa zadania">
+        </div>
+        <div class="form-group">
+          <label for="inputTaskDescription">Opis zadania:</label>
+          <textarea class="form-control" id="inputTaskDescription" rows="10"></textarea>
+  
+        </div>
+        <button id="taskBtnSubmit" type="submit" class="btn btn-primary">Dodaj zadanie</button>
+      </form>
+    </div>
 
    
 
