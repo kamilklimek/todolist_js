@@ -33,7 +33,7 @@
   <body>
 
 
-    <div class="container col">
+    <div class="container col flex">
       <form id="taskForm" action="" method="POST">
         <div class="form-group">
           <label for="inputTaskName">Zadanie: </label>
@@ -41,11 +41,17 @@
         </div>
         <div class="form-group">
           <label for="inputTaskDescription">Opis zadania:</label>
-          <textarea class="form-control" id="inputTaskDescription" rows="10"></textarea>
+          <textarea class="form-control" id="inputTaskDescription" rows="10"  placeholder="Opis zadania"></textarea>
   
         </div>
         <button id="taskBtnSubmit" type="submit" class="btn btn-primary">Dodaj zadanie</button>
       </form>
+      <div class="taskListContainer">
+        <h2 class="title">Zadania</h2>
+         <ul id="taskList" class="taskList list">
+
+         </ul>
+      </div>
     </div>
 
    

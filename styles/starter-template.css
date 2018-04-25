@@ -5,3 +5,33 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+.flex{
+  display:flex;
+}
+.flex > * {
+  flex:1;
+}
+
+.taskListContainer{
+  margin-left:50px;
+}
+
+.title{
+  margin:0;
+  padding:0;
+}
+
+.list {
+  padding:0;
+  list-style:none;
+}
+
+.complete-btn {
+  background:green;
+  border:none;
+  width:25px;
+  height:25px;
+  margin-left: 15px;
+  cursor: pointer;
+}
